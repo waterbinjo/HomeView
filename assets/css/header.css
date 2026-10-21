@@ -1,0 +1,46 @@
+#header {
+    border-bottom: 1px solid #000;
+}
+
+.header_inner {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_logo {
+    padding: 20px;
+    font-size: 36px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    display: flex;
+    justify-content: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.42);
+}
+.header_logo em {
+    font-size: 20px;
+    font-weight: 400;
+}
+.header_nav {
+}
+.header_nav ul {
+    display: flex;
+}
+.header_nav li {
+}
+.header_nav li a {
+    padding: 10px 70px;
+}
+.header_nav li a:hover {
+    color: #ddd;
+}
+.header_member {
+    padding: 20px;
+}
+.header_member a {
+    padding: 6px 10px;
+    border: 1px solid #000;
+    border-radius: 24px; /* 큰값을 넣으면 라운드로 굴려짐 */
+    margin-left: 15px;
+}
